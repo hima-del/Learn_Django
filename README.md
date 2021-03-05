@@ -37,3 +37,27 @@ outside the function: {'Archana': 28, 'krishna': 25, 'Ramesh': 32, 'vineeth': 25
 * In map: Function will be applied to all objects of iterable. 
 * In filter: Function will be applied to only those objects of iterable who goes True on the condition specified in expression.
 
+**Reduce**
+
+* `reduce()` works differently than `map()` and `filter()`. 
+* It does not return a new list based on the function and iterable we've passed. 
+* Instead, it returns a single value.
+
+```
+We start with a list [2, 4, 7, 3] and pass the add(x, y) function to reduce() alongside this list, without an initial value
+
+reduce() calls add(2, 4), and add() returns 6
+
+reduce() calls add(6, 7) (result of the previous call to add() and the next element in the list as parameters), and add() returns 13
+
+reduce() calls add(13, 3), and add() returns 16
+```
+
+* In Python 3 `reduce()` isn't a built-in function anymore, and it can be found in the functools module.
+
+
+
+
+
+
+
