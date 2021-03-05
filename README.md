@@ -30,5 +30,10 @@ outside the function: {'Archana': 28, 'krishna': 25, 'Ramesh': 32, 'vineeth': 25
 * You can return the function from a function.
 * You can store them in data structures such as hash tables, lists, …
 
+**Map and Filter**
 
+* Map takes all objects in a list and allows you to apply a function to it.
+* Filter takes all objects in a list and runs that through a function to create a new list with all objects that return True in that function.
+* In map: Function will be applied to all objects of iterable. 
+* In filter: Function will be applied to only those objects of iterable who goes True on the condition specified in expression.
 
